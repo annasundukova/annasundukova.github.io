@@ -1,0 +1,263 @@
+.nav1 {
+  padding-left: 4vw;
+  padding-right: 0;
+  font-size: 2.5em;
+  font-weight: lighter;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav2 {
+  padding-left: 2vw;
+  padding-right: 4vw;
+  font-size: 2.5em;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.project-image {
+  padding-top: 4vw;
+  padding-left: 4vw;
+  padding-right: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.project-image > img {
+}
+
+.project-descr {
+  font-family: 'BLOKKNeue-Regular', sans serif;
+  padding-top: 4vw;
+  padding-left: 2vw;
+  padding-right: 4vw;
+  padding-bottom: 0;
+}
+
+.project-header {
+  margin-top: 0;
+  border-bottom: 4px solid black;
+  font-family: 'Gill Sans', sans serif; 
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.project-text {
+  font-family: 'Gill Sans', sans serif; 
+  font-size: 1em;
+  font-weight: lighter;
+  text-align: justify;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.about-portrait {
+  padding-top: 4vw;
+  padding-left: 4vw;
+  padding-right: 0;
+  padding-bottom: 2vw;
+}
+
+.about-portrait > img {
+  max-width: 100%;
+}
+
+.about-descr {
+  font-family: 'Gill Sans', sans serif;
+  padding-top: 4vw;
+  padding-left: 2vw;
+  padding-right: 4vw;
+  padding-bottom: 0;
+}
+
+.about-header {
+  margin-top: 0;
+  border-bottom: 4px solid black;
+  font-family: 'Gill Sans', sans serif; 
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.about-cv {
+  font-weight: lighter;
+  text-align: justify;
+  margin: auto;
+}
+
+.about-abstract {
+  margin: auto;
+  padding-left: 4vw;
+  font-family: 'Gill Sans', sans serif; 
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.max-height {
+  height: 100%;
+}
+
+.frame {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.frame-image {
+  width: 100%;
+}
+
+.frame-text {
+  overflow: auto;
+  margin: auto;
+  font-family: 'Gill Sans', sans serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* on hover over project picture -> show project description */
+
+.frame > .frame-image {
+  display: block;
+}
+
+.frame > .frame-text {
+  display: none;
+}
+
+.frame:hover > .frame-image {
+  display: none;
+}
+
+.frame:hover > .frame-text {
+  display: block;
+}
+
+.me {
+  margin: auto;
+  font-family: 'Gill Sans', sans serif; 
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.me-order {
+  order: -1;
+  -webkit-order: -1;
+}
+
+.you {
+  margin: auto;
+  font-family: 'Gill Sans', sans serif; 
+  font-weight: lighter;
+  text-align: center;
+}
+
+.you-order {
+  order: 1000;
+  -webkit-order: 1000;
+}
+
+a {
+  color: black;
+  line-height: 1.5; 
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 4px solid black;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: auto;
+}
+
+/* body::-webkit-scrollbar {  */
+/*   display: none;  */
+/* } */
+
+/* Rearranging based on screen size */
+
+.gallery {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 35.5em) {
+  .me-order {
+   order: -1;
+    -webkit-order: -1;
+  }
+
+  .frame {
+    min-height: 97.2vw;
+    max-height: 97.2vw;
+  }
+}
+
+@media screen and (min-width: 35.5em) and (max-width: 48em) {
+  .me-order {
+    order: -1;
+    -webkit-order: -1;
+  }
+
+  .frame {
+    min-height: 48.7vw;
+    max-height: 48.7vw;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .me-order {
+    order: 7;
+    -webkit-order: 7;
+  }
+
+  .frame {
+    min-height: 32.6vw;
+    max-height: 32.6vw;
+  }
+}
+
+@media screen and (min-width: 64em) and (max-width: 80em) {
+  .me-order {
+    order: 9;
+    -webkit-order: 9;
+  }
+
+  .frame {
+    min-height: 24.6vw;
+    max-height: 24.6vw;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .me-order {
+    order: 13;
+    -webkit-order: 13;
+  }
+
+  .frame {
+    min-height: 19.7vw;
+    max-height: 19.7vw;
+  }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
