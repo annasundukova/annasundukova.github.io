@@ -27,7 +27,7 @@ projects = [
     thumb: 'images/symbiont/symbiont-thumb.png',
     portraits: ['images/symbiont/symbiont-1.jpg', 'images/symbiont/symbiont-2.jpg', 'images/symbiont/symbiont-3.jpg', 'images/symbiont/symbiont-4.jpg', 'images/symbiont/symbiont-5.jpg', 'images/symbiont/symbiont-6.jpg']
   }, {
-    title: ‘Spacecraft’,
+    title: 'Spacecraft',
     abstract: "Spacecraft: Music in Space",
     description: "<p>Year 1 began with an exploration os space. Students were asked to choose a theme for inspiration and interpret it in space through a series of small models.</p>\n<p>I chose “Storm” - a classic from The Four Seasons by Antonio Vivaldi as my inspiration.</p>\n<p>The three conceptual models are entered around the aesthetics and atmospheres of a powerful sea storm - sharp rays of light piercing through storm-clouds, wind, waves, thunder and lighting, a feeling of tension, movement and expressive dynamics, which I found myself imagining while listening to this piece of music. </p>",
     thumb: 'images/spacecraft/spacecraft-thumb.png',
