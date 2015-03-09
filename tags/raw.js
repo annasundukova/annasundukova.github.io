@@ -1,3 +1,3 @@
-riot.tag('raw', '', function(opts) {this.root.innerHTML = opts.html;
+riot.tag('raw', '<span></span>', function(opts) {this.root.innerHTML = opts.content;
 
 });
