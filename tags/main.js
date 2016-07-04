@@ -12,9 +12,9 @@ this.projects = projects;
 
 this.current = {};
 
-this.project = function(title) {
+this.project = function(name) {
   return _.first(_.filter(self.projects, function(i) {
-    return i.title === title;
+    return i.name === name;
   }));
 };
 
@@ -42,6 +42,6 @@ f = function(to, name) {
 
 riot.route(f);
 
-riot.route.exec(f);
+riot.route.start(true);
 
 });

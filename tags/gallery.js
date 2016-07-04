@@ -1,4 +1,4 @@
-riot.tag('gallery', '<div class="pure-g gallery" ><div class="me-order frame pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 pure-u-xl-1-5"><div class="me"><span><a href="#about">{ me.name }</a></span></div></div><div class="frame pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 pure-u-xl-1-5" style="order: { 2 * parent.index(title) }; -webkit-order: { 2 * parent.index(title) };" each="{ projects }" ><div class="frame-image noselect"><img src="{ thumb }" width="100%"></img></div><div class="frame-text"><p><a href="#project/{ title }">{ abstract }</a></p></div></div><div class="you-order frame pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4 pure-u-xl-1-5"><div class="you"><span><a href="{ you.github }" >&copy;{ you.name }</a></span></div></div></div>', function(opts) {var self;
+riot.tag('gallery', '<div class="pure-g gallery" ><div class="pure-u-1-3"><div class="frame"><div class="me"><span><a href="#about">{ me.name }</a></span></div></div><myframe project="{ projects[0] }"></myframe><myframe project="{ projects[1] }"></myframe></div><div class="pure-u-1-3"><myframe project="{ projects[2] }"></myframe><myframe project="{ projects[3] }"></myframe><myframe project="{ projects[4] }"></myframe></div><div class="pure-u-1-3"><myframe project="{ projects[5] }"></myframe><myframe project="{ projects[6] }"></myframe><myframe project="{ projects[7] }"></myframe><div class="frame"><div class="you"><span><a href="{ you.github }" >&copy;{ you.name }</a></span></div></div></div></div>', function(opts) {var self;
 
 self = this;
 
@@ -7,9 +7,5 @@ this.me = opts.me;
 this.you = opts.you;
 
 this.projects = opts.projects;
-
-this.index = function(title) {
-  return _.indexOf(_.pluck(self.projects, 'title'), title);
-};
 
 });
