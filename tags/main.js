@@ -10,7 +10,7 @@ this.you = you;
 
 this.projects = projects;
 
-this.current = {};
+this.current = projects[0];
 
 this.project = function(name) {
   return _.first(_.filter(self.projects, function(i) {
