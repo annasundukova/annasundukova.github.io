@@ -1,4 +1,12 @@
-riot.tag('gallery', '<div class="pure-g gallery" ><div class="small pure-u-1 pure-u-sm-1"><me ></me><myframe each="{ projects }"></myframe><you ></you></div><div class="medium"><div class="pure-u-md-1-2"><me ></me><myframe each="{ projects.slice(0, n/2) }"></myframe></div><div class="pure-u-md-1-2"><myframe each="{ projects.slice(n/2, n) }"></myframe><you ></you></div></div><div class="large"><div class="pure-u-lg-1-3 pure-u-xl-1-3"><me ></me><myframe each="{ projects.slice(0, n/3) }"></myframe></div><div class="pure-u-lg-1-3 pure-u-xl-1-3"><myframe each="{ projects.slice(n/3, (2*n)/3) }"></myframe></div><div class="pure-u-lg-1-3 pure-u-xl-1-3"><myframe each="{ projects.slice((2*n)/3, n) }"></myframe><you ></you></div></div></div>', function(opts) {this.projects = opts.projects;
+riot.tag('gallery', '<div class="pure-g gallery" ><div class="pure-u-1-3"><div class="frame"><div class="me"><span><a href="#about">{ me.name }</a></span></div></div><myframe each="{ projects.slice(0, n/3) }"></myframe></div><div class="pure-u-1-3"><myframe each="{ projects.slice(n/3, (2*n)/3) }"></myframe></div><div class="pure-u-1-3"><myframe each="{ projects.slice((2*n)/3, n) }"></myframe><div class="frame"><div class="you"><span><a href="{ you.github }" >&copy;{ you.name }</a></span></div></div></div></div>', function(opts) {var self;
+
+self = this;
+
+this.me = opts.me;
+
+this.you = opts.you;
+
+this.projects = opts.projects;
 
 this.n = projects.length;
 
