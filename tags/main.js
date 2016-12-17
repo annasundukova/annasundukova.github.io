@@ -1,4 +1,4 @@
-riot.tag('main', '<div if="{ show == \'gallery\' }" ><gallery projects="{ projects }"></gallery></div><div if="{ show == \'project\' }" ><project bind="{ current }"></project></div><div if="{ show == \'about\' }" ><about ></about></div>', function(opts) {var f, self;
+riot.tag('main', '<div if="{ show == \'welcome\' }" ><welcome ></welcome></div><div if="{ show == \'gallery\' }" ><gallery projects="{ projects }"></gallery></div><div if="{ show == \'project\' }" ><project bind="{ current }"></project></div><div if="{ show == \'about\' }" ><about ></about></div>', function(opts) {var f, self;
 
 self = this;
 
@@ -17,7 +17,7 @@ this.project = function(name) {
 this.to = function(to, name) {
   switch (to) {
     case '':
-      self.show = 'gallery';
+      self.show = 'welcome';
       break;
     case 'gallery':
       self.show = 'gallery';
