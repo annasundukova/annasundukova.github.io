@@ -1,3 +1,3 @@
-riot.tag('welcome', '<div class="welcome noselect"><a href="#gallery"><img src="images/welcome.jpg"></img></a></div>', function(opts) {
+riot.tag('welcome', '<div class="welcome noselect"><p class="welcome-text"><a href="#gallery"><raw content="{ welcome }"></raw></a></p></div>', function(opts) {
 
 });

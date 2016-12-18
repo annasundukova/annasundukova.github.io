@@ -1,5 +1,5 @@
 'use strict';
-var me, projects, you;
+var me, projects, welcome, you;
 
 me = {
   name: 'Anna Sundukova',
@@ -17,6 +17,8 @@ you = {
   twitter: '@rdanitz',
   github: 'rdanitz'
 };
+
+welcome = "Some inspirational text.";
 
 projects = [
   {
