@@ -28,17 +28,17 @@ projects = [
     description: "<p>Album art commissioned by Berlin-based indie band Last Days of Elvis for their EP \"Oh Dearism\", released July 2016.</p>\n<p>Enigmatic, viscous, eclectic, at times disturbing, at times romantic, a bit equivocal, a bit discomforting, but very soulful. All that, which you find in their music.</p>",
     images: 2
   }, {
-    name: 'simply-berlin-zine',
-    title: 'Simply Berlin Zine',
-    abstract: "Simply Berlin Zine",
-    description: "    ",
-    images: 0
-  }, {
     name: 'meditation-space',
     title: 'Meditation Space',
     abstract: "The Meditation Space",
     description: "<p>The Meditation Space is a project I developped in my first year at the Glasgow School of Art.</p>\n<p>It is a timber pod designed for one or two people willing to relax and experience the soothing effect of silent contemplation of the beauty of surrounding nature.</p> \n<p>Located on a rocky seashore in Portencross, Scotland, across the sea from the Isle of Arran, the site has beautiful surroundings. The view towards Arran is especially breathtaking during sunsets... </p>\n<p>The idea was to create a form that would resemble the nature of the surroundings, but not blend in completely to signify the spiritual importance of the Meditation Space.</p>",
     images: 7
+  }, {
+    name: 'simply-berlin-zine',
+    title: 'Simply Berlin Zine',
+    abstract: "Simply Berlin Zine",
+    description: "<p>Simply is an independent publication about the beauty of ordinary things.</p>\n<p>The concept of Simply is, well, simple - to speak about matters everyone can relate to, but to do it in a way, which inspires the reader to see them with new eyes.</p> \n<p>Made by and for those experiencing “glossy” lifestyle fatigue, Simply aims to create content, which celebrates the beauty of everyday life.</p> \n<p>Every issue is a collection of words and pictures dedicated to a single theme.</p>\n<p>The first issue is dedicated to Berlin - the city where it all started.</p>\n<p>You can check out the full version here.</p>\n<p>Enjoy and share your thoughts!</p>",
+    images: 6
   }, {
     name: 'cast',
     title: 'CAST',
