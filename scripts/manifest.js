@@ -37,7 +37,7 @@ projects = [
     name: 'simply-berlin-zine',
     title: 'Simply Berlin Zine',
     abstract: "Simply Berlin Zine",
-    description: "<p>Simply is an independent publication about the beauty of ordinary things.</p>\n<p>The concept of Simply is, well, simple - to speak about matters everyone can relate to, but to do it in a way, which inspires the reader to see them with new eyes.</p> \n<p>Made by and for those experiencing “glossy” lifestyle fatigue, Simply aims to create content, which celebrates the beauty of everyday life.</p> \n<p>Every issue is a collection of words and pictures dedicated to a single theme.</p>\n<p>The first issue is dedicated to Berlin - the city where it all started.</p>\n<p>You can check out the full version here.</p>\n<p>Enjoy and share your thoughts!</p>",
+    description: "<p>Simply is an independent publication about the beauty of ordinary things.</p>\n<p>Made by and for those experiencing “glossy” lifestyle fatigue, Simply aims to create content, which celebrates the beauty of everyday life. The concept of Simply is, well, simple - to speak about matters everyone can relate to, but to do it in a way, which inspires the reader to see them with new eyes.</p> \n<p>Every issue is a collection of words and pictures dedicated to a single theme. The first issue is dedicated to Berlin - the city where it all started.</p>\n<p>You can check out the full version <a href=\"https://issuu.com/annasundukova/docs/simplyberlinzinefull\">here</a>. Enjoy and share your thoughts!</p>",
     images: 6
   }, {
     name: 'cast',
@@ -52,16 +52,16 @@ projects = [
     description: "    ",
     images: 0
   }, {
-    name: 'culture-kitchen',
-    title: 'Culture Kitchen',
-    abstract: "Culture Kitchen",
-    description: "<p>Culture Kitchen is a project that aims to regenerate, activate and enliven a disarranged and disregarded area in the Southside of Glasgow, UK.</p>\n<p>Culture Kitchen is located in one of the most culturally, socially and ethnically diverse areas of the city.</p> \n<p>At the moment, there is little engagement between different community groups. The urban environment in the area does not provide any spaces or places, where people could come and spend their time together.</p>\n<p>The design proposal is an urban farming hub and dining space, which seeks to promote healthy eating culture among city dwellers.</p> \n<p>The concept was inspired by the principles of Food Diplomacy, which perceives food as a medium that can facilitate natural social bonding within communities. The core idea of the project is good food bringing people together.</p>\n<p>Culture Kitchen pavilion is built from used cargo shipping containers, repurposed to accommodate the various spaces.</p>\n<p>The pavillion is surrounded by allotments and gardens, which will create a fresh and lively burst of greenery on the otherwise bleak and greyish site.</p>",
-    images: 0
-  }, {
     name: 'analog-photography',
     title: 'Analog Photography',
     abstract: "Analog Photography",
     description: "<p>A collection of photos taken over the years with my vintage FED 3 Soviet 35mm camera from the 1970s. </p>",
+    images: 13
+  }, {
+    name: 'culture-kitchen',
+    title: 'Culture Kitchen',
+    abstract: "Culture Kitchen",
+    description: "<p>Culture Kitchen is a project that aims to regenerate, activate and enliven a disarranged and disregarded area in the Southside of Glasgow, UK.</p>\n<p>Culture Kitchen is located in one of the most culturally, socially and ethnically diverse areas of the city.</p> \n<p>At the moment, there is little engagement between different community groups. The urban environment in the area does not provide any spaces or places, where people could come and spend their time together.</p>\n<p>The design proposal is an urban farming hub and dining space, which seeks to promote healthy eating culture among city dwellers.</p> \n<p>The concept was inspired by the principles of Food Diplomacy, which perceives food as a medium that can facilitate natural social bonding within communities. The core idea of the project is good food bringing people together.</p>\n<p>Culture Kitchen pavilion is built from used cargo shipping containers, repurposed to accommodate the various spaces.</p>\n<p>The pavillion is surrounded by allotments and gardens, which will create a fresh and lively burst of greenery on the otherwise bleak and greyish site.</p>",
     images: 0
   }, {
     name: 'music-as-object',

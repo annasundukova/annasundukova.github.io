@@ -71,18 +71,6 @@
   bottom: 0;
 }
 
-.welcome2 {
-  background: url("../images/welcome.jpg") no-repeat center center fixed;
-  background-size: cover;
-  position: absolute;
-  display: flex;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-
 .welcome-text {
   margin: auto;
   font-family: 'Gill Sans', sans serif;
@@ -125,16 +113,21 @@
   font-size: 2em;
   font-weight: lighter;
   text-align: left;
+  margin-right: 2vw;
 }
 
 .project-text {
   font-family: 'Gill Sans', sans serif; 
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: lighter;
   text-align: center;
   margin: auto;
   padding: 2em;
   max-width: 66%;
+}
+
+.project-text a {
+  font-style: italic;
 }
 
 .about {
@@ -158,6 +151,7 @@
   font-size: 2em;
   font-weight: lighter;
   text-align: left;
+  margin-right: 2vw;
 }
 
 .about-cv {
@@ -167,14 +161,7 @@
   text-align: justify;
   margin: auto;
   vertical-align: middle;
-}
-
-.about-descr {
-  box-sizing: border-box;
-  position: absolute;
-  padding-top: 2vw;
-  padding-left: 2vw;
-  padding-right: 4vw;
+  margin-right: 2vw;
 }
 
 .max-height {
@@ -249,7 +236,7 @@
 
 a {
   color: black;
-  line-height: 1.5; 
+  line-height: 1.5;
   text-decoration: none;
 }
 
@@ -290,6 +277,8 @@ body::-webkit-scrollbar {
   font-weight: lighter;
   font-variant: small-caps;
   text-align: right;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .social-media a:hover {
