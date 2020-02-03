@@ -18,7 +18,7 @@ you = {
   github: 'rdanitz'
 };
 
-welcome = "Some inspirational text.";
+welcome = "Anna Sundukova";
 
 projects = [
   {
