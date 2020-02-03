@@ -18,7 +18,7 @@ you = {
   github: 'rdanitz'
 };
 
-welcome = "Anna Sundukova";
+welcome = "<h1>Anna Sundukova</h1><p>Experience & Service Designer bringing the methodologies of UX and human-centred design to the design of spaces. Also a product strategist, design thinking consultant, workshop facilitator, public speaker – let’s embrace the complexity!</p><p>To request portfolio, ask a question or simply get in touch, contact me: <a href=\"mailto:anna@annasundukova.com\">anna@annasundukova.com</a></p><p>[full website coming soon]</p>";
 
 projects = [
   {
